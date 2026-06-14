@@ -2,6 +2,9 @@ import Link from 'next/link';
 import teamsData from './data/teams.json';
 import groupsData from './data/groups.json';
 import venuesData from './data/venues.json';
+import LiveScores from './components/LiveScores';
+import LiveStandings from './components/LiveStandings';
+import Countdown from './components/Countdown';
 
 export default function HomePage() {
   const featuredTeams = teamsData.filter(t => ['brazil', 'argentina', 'france', 'england', 'spain', 'germany', 'portugal', 'netherlands'].includes(t.slug));
@@ -15,17 +18,34 @@ export default function HomePage() {
           <div className="hero-badge">🔴 LIVE NOW — Group Stage in Progress</div>
           <h1>FIFA World Cup <span className="highlight">2026</span></h1>
           <p>Your complete fan hub — match schedules in your timezone, all 48 teams, 16 stadiums, group standings & live updates. June 11 – July 19, 2026.</p>
-          <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link href="/schedule" className="btn btn-primary">📅 View Schedule</Link>
-            <Link href="/teams" className="btn btn-secondary">🏆 All 48 Teams</Link>
+          <div className="hero-buttons">
+              <Link href="/schedule" className="btn btn-primary">Match Schedule</Link>
+              <Link href="/teams" className="btn btn-secondary">Explore Teams</Link>
+            </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <Countdown />
+          <LiveScores />
+        </div>
+      </section>
+
+      <section className="section section-alt">
+        <div className="container">
+          <div className="section-header animate-fadeInUp">
+            <h2>Live Group Standings</h2>
+            <p>Real-time updates as the tournament progresses</p>
           </div>
+          <LiveStandings />
         </div>
       </section>
 
       {/* STATS */}
       <section className="section">
         <div className="container">
-          <div className="stats-row">
+          <div className="stats-row animate-fadeInUp">
             <div className="stat-item">
               <div className="stat-value">48</div>
               <div className="stat-label">Teams</div>

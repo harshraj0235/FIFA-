@@ -1,4 +1,6 @@
 import './globals.css';
+import './live.css';
+import LiveTicker from './components/LiveTicker';
 
 export const metadata = {
   metadataBase: new URL('https://fanscoreboard.com'),
@@ -99,6 +101,8 @@ export default function RootLayout({ children }) {
             </button>
           </div>
         </header>
+        
+        <LiveTicker />
 
         <main>{children}</main>
 
