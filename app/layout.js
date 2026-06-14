@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
               <a href="/venues">Venues</a>
               <a href="/blog">Blog</a>
             </nav>
-            <button className="nav-toggle" id="navToggle" aria-label="Toggle navigation" onClick={() => {}}>
+            <button className="nav-toggle" id="navToggle" aria-label="Toggle navigation">
               ☰
             </button>
           </div>
