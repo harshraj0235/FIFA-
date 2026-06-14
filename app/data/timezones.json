@@ -1,0 +1,12 @@
+[
+  {"slug":"india","name":"India","timezone":"Asia/Kolkata","locale":"en-IN"},
+  {"slug":"united-kingdom","name":"United Kingdom","timezone":"Europe/London","locale":"en-GB"},
+  {"slug":"australia","name":"Australia (Sydney)","timezone":"Australia/Sydney","locale":"en-AU"},
+  {"slug":"germany","name":"Germany","timezone":"Europe/Berlin","locale":"de-DE"},
+  {"slug":"france","name":"France","timezone":"Europe/Paris","locale":"fr-FR"},
+  {"slug":"japan","name":"Japan","timezone":"Asia/Tokyo","locale":"ja-JP"},
+  {"slug":"brazil","name":"Brazil (Brasília)","timezone":"America/Sao_Paulo","locale":"pt-BR"},
+  {"slug":"argentina","name":"Argentina","timezone":"America/Argentina/Buenos_Aires","locale":"es-AR"},
+  {"slug":"nigeria","name":"Nigeria","timezone":"Africa/Lagos","locale":"en-NG"},
+  {"slug":"south-africa","name":"South Africa","timezone":"Africa/Johannesburg","locale":"en-ZA"}
+]

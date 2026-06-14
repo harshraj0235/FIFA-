@@ -1,0 +1,14 @@
+[
+  {"slug":"a","name":"Group A","teams":["mexico","south-africa","south-korea","czechia"]},
+  {"slug":"b","name":"Group B","teams":["canada","bosnia-herzegovina","qatar","switzerland"]},
+  {"slug":"c","name":"Group C","teams":["brazil","morocco","haiti","scotland"]},
+  {"slug":"d","name":"Group D","teams":["united-states","paraguay","australia","turkiye"]},
+  {"slug":"e","name":"Group E","teams":["germany","curacao","ivory-coast","ecuador"]},
+  {"slug":"f","name":"Group F","teams":["netherlands","japan","sweden","tunisia"]},
+  {"slug":"g","name":"Group G","teams":["belgium","egypt","iran","new-zealand"]},
+  {"slug":"h","name":"Group H","teams":["spain","cape-verde","saudi-arabia","uruguay"]},
+  {"slug":"i","name":"Group I","teams":["france","senegal","iraq","norway"]},
+  {"slug":"j","name":"Group J","teams":["argentina","algeria","austria","jordan"]},
+  {"slug":"k","name":"Group K","teams":["portugal","dr-congo","uzbekistan","colombia"]},
+  {"slug":"l","name":"Group L","teams":["england","croatia","ghana","panama"]}
+]
