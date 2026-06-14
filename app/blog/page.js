@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import blogPosts from '../../data/blog-posts.json';
+import blogPosts from '../data/blog-posts.json';
 
 export const metadata = {
   title: 'World Cup 2026 News & Updates | FanScoreboard Blog',

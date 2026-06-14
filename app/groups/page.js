@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import groupsData from '../../data/groups.json';
-import teamsData from '../../data/teams.json';
+import groupsData from '../data/groups.json';
+import teamsData from '../data/teams.json';
 
 export const metadata = {
   title: 'All Groups — FIFA World Cup 2026',

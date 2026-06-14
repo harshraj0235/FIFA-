@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import timezonesData from '../../../data/timezones.json';
+import timezonesData from '../../data/timezones.json';
 
 export default function TimezoneConverterTool() {
   const [selectedTz, setSelectedTz] = useState(timezonesData[0].slug);

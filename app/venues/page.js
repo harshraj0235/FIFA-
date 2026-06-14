@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import venuesData from '../../data/venues.json';
+import venuesData from '../data/venues.json';
 
 export const metadata = {
   title: 'Venues & Stadiums — FIFA World Cup 2026',
